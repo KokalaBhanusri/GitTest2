@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	 xmlns:p="http://www.springframework.org/schema/p"
+	 xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- 	<bean id="helper1" name="bean1" class="Helper" > -->
+<!-- 		<constructor-arg  index="0" ref="HelloWorld" /> -->
+<!-- 		<constructor-arg  name="x" value= "123" /> -->
+<!-- 		<constructor-arg  name="y" value= "124" />		 -->
+<!-- 	</bean> -->
+	
+	
+<!-- 	<bean id="helper2" name="bean3" class="Helper"  > -->
+<!-- 		<constructor-arg  index="0" ref="HelloWorld" /> -->
+<!-- 		<constructor-arg  name="x" value= "222" /> -->
+<!-- 		<constructor-arg  name="y" value= "223" />		 -->
+<!-- 	</bean> -->
+	
+	
+<!-- 	<bean id="helper3" name="bean4" class="Helper"  c:_0-ref="HelloWorld" c:x="333" c:y="223"/> -->
+		
+	
+	
+	<bean id="hello" class="HelloWorld">
+	
+	<property name="lists">
+			
+	
+	</property>
+	
+	<property name="name" value="Bhanu" />
+	</bean>
+	
+	
+
+<!-- <alias name="bean4" alias="bean2"/> -->
+</beans>
